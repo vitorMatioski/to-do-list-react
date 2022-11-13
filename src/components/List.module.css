@@ -1,0 +1,43 @@
+.context{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+     margin-top: 2rem;
+     width: 60%;
+}
+
+.listContent{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     flex-direction: row;
+     background-color:#333333 ;
+     border-radius: 8px;
+     width: 100%;
+     height: 3.375rem;
+     gap:1rem;
+}
+
+.listContent input{
+     margin-left: 0.5rem;
+}
+
+.listContent input[type=checkbox]:checked ~ li{
+     text-decoration: line-through;
+  }
+
+.listContent li{
+     list-style-type: none;
+     padding-left: 0.5rem;
+}
+
+.listContent button{
+     background-color: transparent;
+     cursor: pointer;
+     display: flex;
+     align-items: center;
+     border: none;
+     border-radius: 8px;
+     margin-right: 1rem;
+}
